@@ -1,0 +1,335 @@
+:root {
+    --font1 : 'Bebas Neue' , cursive
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e8290b;
+
+}
+
+#navbar{
+    box-sizing: border-box;
+    height: 80px;
+    background-color: #222;
+    /* trbl */
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-family: 'Bebas Neue' , cursive;
+}
+
+.navbar-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    font-size: 24px;
+    font-family: 'Bebas Neue' , cursive;
+}
+
+#entry {
+    color: #fff;
+    height: 80vh;
+    background-color: #222;
+    display:flex;
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.entry-text {
+    margin-top: 80px ;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.red-outlined-btn {
+    margin-top: 20px;
+    font-size: 20px;
+    color:#fff;
+    background-color: #e8290b;
+    outline: 1px solid #222;
+    border: none;
+    outline-offset: -5px;
+    padding: 10px;
+    transition: all .2s linear ;
+    cursor: pointer;
+}
+
+.red-outlined-btn:hover {
+    background-color: #fff;
+    color: #e8290b;
+}
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 60px 120px;
+}
+
+.section-subtitle {
+    color: #e8290b;
+    font-size: 14px;
+    font-family: 'poppins' , sans-serif;
+    margin-bottom: 5px;
+}
+
+.section-header {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'poppins' , sans-serif;
+    
+}
+
+#blog {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 150px;
+}
+.blog {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-bottom: 80px;
+}
+
+.blog-image {
+    width: 40%;
+}
+
+.blog-info {
+    width: 50%;
+}
+
+.blog-reverse {
+    flex-direction: row-reverse;
+}
+
+.blogs {
+    margin-top: 40px;
+}
+
+.blog-header {
+    font-family: 'Bebas Neue' , cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.blog-discription {
+    margin-top: 15px;
+}
+
+#projects {
+    text-align:  center;
+    padding: 60px 120px ;
+}   
+
+.project-list {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.project {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0.8px solid #22222222;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+#testimonial {
+    text-align: center;
+}
+
+.testimonial-card {
+    box-shadow: 0px 20px 40px #0000000d;
+    border-radius: 3px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 120px;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.testimonial-avatar {
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#contact {
+    margin-top: -200px;
+    padding: 250px 60px 60px 60px;
+    background-color: #222;
+    z-index: 1;
+    
+}
+
+label{
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+}
+
+input,textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    background-color: #222;
+}
+
+
+footer{
+    text-align: center;
+    padding: 15px;
+}
+
+
+.heart {
+    color: #e8290b;
+}
+
+/* 
+ <ul>
+                            <li><a href="#">MISSION</a></li>
+                            <li><a href="#">VISION</a></li>
+                            <li><a href="#">TEAM</a></li>
+                         </ul>   
+
+  <ul>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="#">PHOTO</a></li>
+                       </ul>                     
+#projects {
+    text-align: center;
+    padding: 60px 120px;
+}
+
+.project-list { 
+    display: grid;
+    grid-gap: 10px0;
+    grid-template-columns: auto auto auto auto;
+}
+
+.project {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border : 0.8px solid #22222222;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.project-info {
+    padding: 20px;
+} */
+
+
+    
+
+
+
+/* 
+<div class="project">
+        <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+        <div class="project-info">
+            <h2 class="projeccttitle">Project Two</h2>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+        <div class="project-info">
+            <h2 class="projeccttitle">Project Three</h2>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+        </div>
+    </div>
+    <div class="project">
+        <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+        <div class="project-info">
+            <h2 class="projeccttitle">Project One</h2>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+        </div>
+    </div> */
+
+
+
+    /* <section id="projects">
+    <h6 class="section-subtitle">Projects</h6>
+    <h1 class="section-header">My projects </h1>
+    <class class="project-list">
+        <div class="project">
+            <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+            <div class="project-info">
+                <h2 class="projecct-title">Project One</h2>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+            </div>
+        </div>
+    </class>
+       <div class="project">
+            <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+            <div class="project-info">
+                <h2 class="projecct-title">Project One</h2>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+            <div class="project-info">
+                <h2 class="projecct-title">Project One</h2>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+            </div>
+        </div>
+       <div class="project">
+        <img src="image/alexander-shatov-netflix.jpg" alt="" class="project-image">
+          <div class="project-info">
+            <h2 class="projecct-title">Project One</h2>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, repellendus! Odit animi atque odio veritatis ipsam architecto est quas harum soluta suscipit nisi ratione incidunt quidem eius, tempora ipsum minus!</p>
+          </div>
+        </div>
+    
+    </div>   
+</section> */
